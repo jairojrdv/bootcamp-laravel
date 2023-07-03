@@ -44,7 +44,7 @@ class NewChirp extends Notification
                     ->line(Str::limit($this->chirp->message, 50))
 
                     ->action('Go to Chirper', url('/'))
-                    
+                        
                     ->line('Thank you for using our application!');
     }
 
